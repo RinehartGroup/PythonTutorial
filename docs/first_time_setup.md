@@ -2,7 +2,7 @@
 
 This document will walk you through setting up your development environment and creating a repository for your scratch work.
 
-The tutorial notebooks in `PythonTutorial` can be copied into your scratch repository or forked into your own repository (recommended). If you are here to use the tutorial notebooks, use this document to set up your development environment fist and then follow the instructions in the [How to Fork this Repository](how_to_fork_this_repository.md) document.
+The tutorial notebooks in `PythonTutorial` can be copied into your scratch repository or forked into your own repository (recommended). If you are here to use the tutorial notebooks, use this document to set up your development environment first and then follow the instructions in the [How to Fork this Repository](how_to_fork_this_repository.md) document.
 
 ## Git and GitHub
 
