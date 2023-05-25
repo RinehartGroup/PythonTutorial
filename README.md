@@ -9,6 +9,8 @@ Alternatively you can fork this repository into your personal GitHub account and
 
 > pip install ipykernel git+https://github.com/RinehartGroup/MagnetoPy.git@v0.1.0
 
+Here are some detailed instructions for [how to work with a forked version of this repository](docs/how_to_fork_this_repository.md).
+
 ## How to Use These Tutorials
 
 The tutorials herein contain a mixture of background information, examples, and exercises. They assume some basic knowledge of Python. If you're new to Python you may want to practice some of the basics on [CheckiO](https://py.checkio.org/). Doing 2-3 of the modules there should be sufficient to get you started.
