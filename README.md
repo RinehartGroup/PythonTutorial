@@ -41,3 +41,7 @@ Completed tutorial notebooks can be found in [tutorial_answers](tutorial_answers
 1. [Reading Files into DataFrames](tutorial/01_reading_files.ipynb)
 
    Read in some data from a .dat file containing data from magnetization vs field (hysteresis) measurements and do some basic manipulation of the data using `pandas`.
+
+2. [Parsing Data Into Standard Formats](tutorial/02_parsing.ipynb)
+
+   Having read in some .dat files containing data from M vs. H or ZFCFC experiments, figure out how to handle different file structures that arise from different users or different measurement conditions, and make some general functions that leave you with dataframes that are easy to plot and do analysis on.
