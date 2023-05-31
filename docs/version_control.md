@@ -10,7 +10,7 @@ That's why we need to manage Python versions and isolate our project environment
 
 [pyenv](https://github.com/pyenv/pyenv) is a tool that lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
 
-Follow the instructions on the [pyenv-installer](https://github.com/pyenv/pyenv-installer) page or see below for detailed instructions.
+Follow the instructions on the [pyenv-installer](https://github.com/pyenv/pyenv-installer) page (for Mac and Linux users), the [pyenv-win](https://github.com/pyenv-win/pyenv-win/blob/master/docs/installation.md) page (for Windows users), or see below for detailed instructions.
 
 <details>
 <summary>Extended Installation Instructions for pyenv</summary>
