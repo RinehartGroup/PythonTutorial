@@ -158,36 +158,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-.tutorial/pyvenv.cfg
-.tutorial/Scripts/activate
-.tutorial/Scripts/activate.bat
-.tutorial/Scripts/Activate.ps1
-.tutorial/Scripts/deactivate.bat
-.tutorial/Scripts/f2py.exe
-.tutorial/Scripts/fonttools.exe
-.tutorial/Scripts/ipython.exe
-.tutorial/Scripts/ipython3.exe
-.tutorial/Scripts/jupyter-kernel.exe
-.tutorial/Scripts/jupyter-kernelspec.exe
-.tutorial/Scripts/jupyter-migrate.exe
-.tutorial/Scripts/jupyter-run.exe
-.tutorial/Scripts/jupyter-troubleshoot.exe
-.tutorial/Scripts/jupyter.exe
-.tutorial/Scripts/pip.exe
-.tutorial/Scripts/pip3.10.exe
-.tutorial/Scripts/pip3.exe
-.tutorial/Scripts/pyftmerge.exe
-.tutorial/Scripts/pyftsubset.exe
-.tutorial/Scripts/pygmentize.exe
-.tutorial/Scripts/python.exe
-.tutorial/Scripts/pythonw.exe
-.tutorial/Scripts/pywin32_postinstall.py
-.tutorial/Scripts/pywin32_testall.py
-.tutorial/Scripts/ttx.exe
-.tutorial/share/jupyter/kernels/python3/kernel.json
-.tutorial/share/jupyter/kernels/python3/logo-32x32.png
-.tutorial/share/jupyter/kernels/python3/logo-64x64.png
-.tutorial/share/jupyter/kernels/python3/logo-svg.svg
-.tutorial/share/man/man1/ipython.1
-.tutorial/share/man/man1/ttx.1
-.vscode/settings.json
+
+ .tutorial/*
+ scratch*
