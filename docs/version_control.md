@@ -255,6 +255,31 @@ poetry add -D [package-name]
 poetry update [package-name]
 ```
 
+ ## How to Continue Working with a Poetry Project in VS Code
+
+When you want to continue working with a Poetry project in Visual Studio Code, follow these steps:
+
+1. **Open the Project in VS Code**: 
+    Open Visual Studio Code, then select `File -> Open Workspace...` from the menu. Navigate to your project directory and select the `.code-workspace` file. This will open your project workspace.
+
+2. **Open the Integrated Terminal**:
+    Once your project is open, open the integrated terminal by selecting `Terminal -> New Terminal` from the menu.
+
+3. **Activate the Virtual Environment**:
+    Poetry manages the virtual environment for your project, so you don't need to manually activate it. When you use a command like `poetry run python`, Poetry will automatically use the virtual environment.
+
+    If you want to work within the virtual environment, use the command `poetry shell`. This will open a new shell session with the virtual environment activated.
+
+    If you need to know the path to the virtual environment, you can use the command `poetry env info --path`.
+
+4. **Install Additional Dependencies**:
+    To install additional dependencies, use the command `poetry add package-name`, replacing `package-name` with the name of the package you want to install. This will add the package to your `pyproject.toml` file and install it in the virtual environment.
+
+5. **Run Your Python Scripts**:
+    You can run your Python scripts with the command `poetry run python script.py`, replacing `script.py` with the name of your script. This will run the script using the Python interpreter in the virtual environment, with access to all the dependencies you've installed.
+
+Remember to save your work often, and commit changes so our code stays current.
+   
 ## Testing your project
 
 1. Before running your tests, ensure all dependencies are installed:
