@@ -1,4 +1,5 @@
 # PythonTutorial
+
 A Python tutorial focusing on analysis of magnetic data and other aspects relevant to the Rinehart Group.
 
 ## Setup
@@ -45,3 +46,7 @@ Completed tutorial notebooks can be found in [tutorial_answers](tutorial_answers
 2. [Parsing Data Into Standard Formats](tutorial/02_parsing.ipynb)
 
    Having read in some .dat files containing data from M vs. H or ZFCFC experiments, figure out how to handle different file structures that arise from different users or different measurement conditions, and make some general functions that leave you with dataframes that are easy to plot and do analysis on.
+
+3. [Object Oriented Programming and Documentation](tutorial/03_object_oriented_programming.ipynb)
+
+   Use object oriented programming to organize the parsing code from previous tutorials into `DatFile` and `Dataset` classes. Document your code using docstrings.
