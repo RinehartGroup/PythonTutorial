@@ -69,7 +69,7 @@ Even if you already have a version of Python installed, when working on a group 
 
 <br>
 
-5. Try **running the version of `python` just you just installed.**
+5. Try **running the version of `python` you just installed.**
 
     a. Windows:
 
@@ -120,10 +120,9 @@ VS Code is an IDE (Integrated Development Environment) that we will be using to 
 8. Go to the Rinehart Group GitHub page and **create a new repository** called `<yourname>Scratch`.
 
     a. Description: "Scratch repository for \<your name>"
-
     b. Select "Private" (only visible to others on the RinehartGroup org)
 
-    c. Select "Add a README file" - a README file is always good practice
+    c. Select "Add a README file" - a README file is always good practice.  Include your full name, position in group, and any other information so we can attribute things to you and make sure you know about it even             after you leave. (some ideas: ORCHID, Google Scholar profile, Twitter Handle, Linked In Profile, permanent email address).
 
     d. Select "Add .gitignore" and select "Python" from the dropdown menu
 
