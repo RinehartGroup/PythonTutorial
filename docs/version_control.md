@@ -12,6 +12,18 @@ That's why we need to manage Python versions and isolate our project environment
 
 Follow the instructions on the [pyenv-installer](https://github.com/pyenv/pyenv-installer) page (for Mac and Linux users), the [pyenv-win](https://github.com/pyenv-win/pyenv-win/blob/master/docs/installation.md) page (for Windows users), or see below for detailed instructions.
 
+Once pyenv is installed, you may need to update it to get it to recognize newer versions of python:
+
+<pre>
+   pyenv update
+</pre>
+
+To check the versions available for use with pyenv:
+
+<pre>
+  pyenv install --list
+</pre>
+
 <details>
 <summary>Extended Installation Instructions for pyenv</summary>
 
