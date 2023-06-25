@@ -238,13 +238,18 @@ poetry new .
 Using Poetry's shell: Poetry has a shell command that spawns a shell within the virtual environment. If you're using pyenv with Poetry, you might need to prefix this command with `pyenv exec` to ensure the correct Python version is used:
 
 ```
-pyenv exec poetry
+pyenv exec poetry new .
+```
+Note that this will only work if you have a new directory with nothing in it. Otherwise:
+
+```
+pyenv exec poetry init
 ```
 
-5. Open the project in VS Code:
+or if you already have a .toml file present:
 
 ```
-code .
+pyenv exec poetry shell
 ```
 
 ## Adding and updating dependencies
