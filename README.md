@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/644101665.svg)](https://zenodo.org/badge/latestdoi/644101665)
+
 # PythonTutorial
 
 A Python tutorial focusing on analysis of magnetic data and other aspects relevant to the Rinehart Group.
