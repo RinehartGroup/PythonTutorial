@@ -174,23 +174,6 @@ Here's a simple workflow using pyenv:
 
 You can verify your Python version with: `python --version`.
 
-## Using Virtual Environments for Isolating Project Environments
-
-Python “Virtual Environments” allow Python packages to be installed in an isolated location for a particular application, rather than being installed globally.
-
-Here's how to set up a virtual environment:
-
-1. **Create a virtual environment**:
-
-   - Navigate to your project directory.
-   - Create a new virtual environment inside your project directory: `python -m venv env`
-
-2. **Activate the virtual environment**:
-   - On Windows: `env\Scripts\activate`
-   - On Unix or MacOS: `source env/bin/activate`
-
-You should see `(env)` at the start of your terminal line indicating you are in a virtual environment named "env".
-
 ## Managing Python Packages
 
 Maintaining a list of all packages (with their respective versions) used in your project is important for reproducibility and consistency across different setups.
